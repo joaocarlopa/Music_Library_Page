@@ -1,0 +1,406 @@
+body {
+    color: #e5e5e5e7;
+    font-family: 'Montserrat';
+    background-color: #040517;
+    
+}
+
+@media screen and (min-width: 600px) {
+    .car {
+        width: 1000px;
+    }
+
+    .track {
+    
+        margin: 50px 0px 0px 300px;
+       
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 813px) {
+
+    .content {
+        background: linear-gradient(to right, rgba(25, 15, 65), rgba(76, 0, 130, 0.397), rgba(75,0,130));
+        position: relative;
+        height: 1000px;
+        
+        left: -70px;
+        top: 110px;
+        
+     
+    }   
+
+    .container_center {
+        width: 390px;
+        position: relative;
+        left: -10px;
+    }
+
+  
+
+    
+    .cont_left {
+        position: absolute;
+        top: 0;
+        left: -70px;
+        height: 180px;
+        width: 100%;
+    }
+
+    .car {
+        width: 350px;
+    }
+    .menuDrop {
+        position: absolute;
+        top: 15%;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: auto;
+        margin-left: -10px;
+    }
+
+    .dropLink a:hover, .dropLink a:active {
+        color: white;
+        transition: 0.25s;
+    }
+
+    .iconX:hover, .iconX:active {
+        transition: 0.25s;
+        filter: brightness(50%);
+    }
+
+    .icons {
+        position: relative;
+        left: -230px;
+        top: 10px;
+    }
+    
+
+
+    .profile {
+        position: relative;
+        left: 55px;
+        top: -40px;
+    }
+
+    .menu {
+        position: relative;
+        top: 500px;
+        left: 160px
+    }
+
+    .menu:hover {
+        filter: brightness(65%);
+        transition: 0.25s;
+    }
+
+
+
+    .track {
+        margin: 340px 0px 0px -360px;
+        
+    }
+
+    .numView {
+        position: relative;
+        left: -5px;
+    }
+
+   
+    
+
+    .container_down, .container_profile {
+        opacity: 0;
+        
+    }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #040517;
+  -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: rgb(43, 23, 114);
+  -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: rgb(43, 23, 114);
+  -webkit-border-radius: 3px;
+}
+
+.container {
+    
+    margin-left: -8px;
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+
+
+.cont_left {
+    
+    background-color: #040517;
+}
+
+.content {
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(25, 15, 65, 0.774);
+    padding: 30px 0px 0px 80px;
+}
+
+.imgProfile {
+    border-radius: 5px;
+}
+
+.menu {
+   margin-top: -500px;
+}
+
+
+
+
+
+.profile {
+    margin: 60px 0px 0px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.profileSet {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.smallPic {
+    font-size: 12px;
+    color: rgba(169, 169, 169, 0.384)
+}
+
+.content_profile {
+    margin: 50px 0px 0px 60px;
+    width: 110px;
+
+   
+    border-top: 1px solid #e5e5e515;
+}
+
+.container_profile {
+    padding-top: 25px;
+}
+
+.container_down {
+    margin: 50px 0px 0px 0px;
+    width: 130px;
+
+   
+    border-top: 1px solid #e5e5e515;
+}
+
+.container_down {
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e5e55e;
+
+}
+
+
+.links {
+    margin-top: -10px;
+}
+
+.links a:hover, .link a:hover, .smallPic:hover {
+    transition: 0.3s;
+    color: white;
+ 
+}
+
+.links a:active, .link a:active, .smallPic:active {
+    position: relative;
+    top: 1px;
+}
+
+.link {
+    margin-top: 10px;
+}
+
+.text {
+    
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 300px;
+}
+
+.text:focus {
+    
+    color: white;
+}
+
+.container_center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.playlist {
+    margin-top: 50px;
+}
+
+.car {
+    display: flex;
+    flex-direction: row;
+    
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+.nameVideo {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.nameVideo:hover {
+    filter: brightness(50%);
+}
+
+.sml:hover {
+    filter: brightness(50%);
+}
+
+.play {
+    margin-right: 20px;
+}
+
+.imgPlay:hover {
+    filter: brightness(50%);
+}
+
+.imgPlay {
+    border-radius: 10px;
+    cursor: pointer;
+}
+.play a {
+    color: #e5e5e5e7;
+}
+
+.viewCont {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.view {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.album {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.contentView {
+    margin-left: 10px;
+    color: #e5e5e5e7;
+    
+}
+
+.smallView {
+    margin-top: 10px;
+    font-size: x-small;
+    filter: brightness(50%);
+}
+
+.numView {
+    filter: brightness(50%);
+    color: #e5e5e5e7;
+}
+
+
+
+.contentTrack {
+    width: 340px;
+    overflow-x: scroll;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.trackFiles {
+    margin-right: 20px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trackFiles a:hover {
+    filter: brightness(65%);
+}
+
+.icons {
+    
+    margin: 20px 0px 0px 235px;
+    display: flex;
+    flex-direction: row;
+}
+
+.git {
+    margin-right: 10px;
+}
+
+.icons a {
+    color: white;
+
+}
+
+.git a:hover {
+    transition: 0.25s;
+    color: rgb(218,165,32);
+}
+
+.linkd {
+    margin-right: 10px;
+}
+
+.linkd a:hover {
+    transition: 0.25s;
+    color: rgb(100,149,237);
+}
+
+.twitter a:hover {
+    transition: 0.25s;
+    color: rgb(0,191,255);
+}
+
+.type:hover {
+    transition: 0.25s;
+    filter: brightness(65%);
+}
+
